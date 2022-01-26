@@ -3,25 +3,16 @@ site_url: "https://gbssg.github.io/modul169"
 
 nav:
   - 0. Übersicht: index.md
-  - 1. Codierung:
-    - Begriff Codierung: 1-10.md
-    - Arten von Codes: 1-20.md
-    - Fehlererkennung und -behebung: 1-30.md
-    - Binärcode: 1-40.md
-    - Zahlensysteme: 1-50.md
-    - Logische Operatoren: 1-60.md
-    - Bildcodierung: 1-70.md
-  - 2. Komprimierung:
-    - Funktionsweise Komprimierung: 2-10.md
-    - Normen und Standards: 2-20.md
-  - 3. Verschlüsselung:
-    - Begrifflichkeiten: 3-10.md
-    - Symmetrische Verschlüsselungsmethoden: 3-20.md
-    - Asymmetrische Verschlüsselungsmethoden: 3-30.md
-    - Zertifikate: 3-40.md
-    - Signaturen: 3-50.md
-  - 10. Beginn:
-    - Übersicht Elemente: 10-10.md
+  - 1. Einführung:
+    - Überblick: 1-10.md
+  - 2. Umgebung / Architektur:
+    - Grundprinzipien: 2-10.md
+  - 3. Datenverbindungen:
+    - Übersicht: 3-10.md
+  - 4. Sicherheit:
+    - Betrieb: 4-10.md
+  - 5. Dokumentation:
+    - Übersicht: 1-10.md
 
 theme:
   name: material

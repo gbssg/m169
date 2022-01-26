@@ -1,75 +1,67 @@
-# Dokumentation Modul 169
+# Dokumentation Modul 169 - Services mit Containern bereitstellen
 
-Willkommen zum Modul 169
-
-```mermaid
-graph TD
-A[Client] --> B[Load Balancer]
-B --> C[Server01]
-B --> D[Server02]
-```
-
+Übersicht Modul 169 - Services mit Containern bereitstellen
 
 ```markmap
 # Modul 169
 
 ## Einführung
 
+### Administration
 - Aufbau Modul 
+- Semesterplanung
+- Prüfungsleistungen
+
+### Überblick
 - Technologie
 - UseCase
+- Dokumentation gesamtes Modul
 
-## Docker
+## Umgebung / Architektur
 
-- Installation
-    - Windows
-    - Linux
-* Branchlet 2b
+### Grundprinzipien
+- Monolithische Architektur
+- Microservice-Architektur
 
-## Grundlagen
+### Container [Praktischer Teil Docker]
+- Verpackung Services in Containern
+- Container-Architektur
+- Persistenz
+- Vernetzung
+- Bereitstellung und Überwachung Container
+- Verwaltung der Container
 
-* Branchlet 2a
-* Branchlet 2b
+## Datenverbindungen bereitstellen
+- Portfreigaben, Berechtigungen und Authentifizierung
+- REST-Paradigma, Message Bus, API Gateway und Monitoring
 
-## Dockerfiles, docker compose
-- fdas
+## Sicherheit
+- Betrieb von Containern
+    - Kubernetes
+    - Docker Swarm
+- Sicherheits- und Testkonzept
 
-### Werkzeugkasten
+## Dokumentation
 
-### Werkzeugkasten
+### Netzwerkplan
+- logischer und physische Architektur
+- Netzwerksymbole
+
+### Images / Dockerfiles
+- Erstellung und Verwaltung mit Versionsverwaltungssystemen
+- Lebenszyklus
+- Testing
+
+## Praxis-Projekt
+- Moderne Webapplikation (Front- / Backend, API-Server)
+- Statistiktool Grafana
+- ...
 
 ```
 
 {==
 
-Formatting can also be applied to blocks by putting the opening and closing
-tags on separate lines and adding new lines between the tags and the content.
+Im Modul 169 wird ein eigenes Praxis-Projekt geplant, umgesetzt, getestet und dokumentiert.
 
 ==}
-
-Text can be {--deleted--} and replacement text {++added++}. This can also be
-combined into {~~one~>a single~~} operation. {==Highlighting==} is also
-possible {>>and comments can be added inline<<}.
-
-!!! note "Phasellus posuere in sem ut cursus"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-
-
-``` py linenums="1"
-def bubble_sort(items):
-    for i in range(len(items)):
-        for j in range(len(items) - 1 - i):
-            if items[j] > items[j + 1]:
-                items[j], items[j + 1] = items[j + 1], items[j]
-```
-
-<figure markdown> 
-
-
-  ![Image title](https://dummyimage.com/600x400/){ width="300" }
-  <figcaption>Image caption</figcaption>
-</figure>
 
