@@ -28,6 +28,7 @@ theme:
 plugins:
   - mermaid2
   - markmap
+  - search
 
 markdown_extensions:
   - pymdownx.highlight:
