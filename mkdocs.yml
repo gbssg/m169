@@ -1,5 +1,6 @@
 site_name: Modul 169 - Services mit Containern bereitstellen
 site_url: "https://gbssg.github.io/modul169"
+repo_url: "https://github.com/gbssg/m169"
 
 nav:
   - 0. Übersicht: index.md

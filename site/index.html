@@ -7,22 +7,32 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="https://gbssg.github.io/modul169/" rel="canonical"/>
 <link href="img/favicon-32x32.png" rel="icon"/>
-<meta content="mkdocs-1.2.1, mkdocs-material-7.1.9" name="generator"/>
+<meta content="mkdocs-1.2.3, mkdocs-material-8.2.2" name="generator"/>
 <title>Modul 169 - Services mit Containern bereitstellen</title>
-<link href="assets/stylesheets/main.ca7ac06f.min.css" rel="stylesheet"/>
-<link href="assets/stylesheets/palette.f1a3b89f.min.css" rel="stylesheet"/>
+<link href="assets/stylesheets/main.e8d9bf0c.min.css" rel="stylesheet"/>
+<link href="assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
-<style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="stylesheets/extra.css" rel="stylesheet"/>
-</head>
+<script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script src="js/unpkg.com/d3@6.7.0/dist/d3.min.js" type="text/javascript"></script><script src="js/unpkg.com/markmap-lib@0.11.6/dist/browser/index.min.js" type="text/javascript"></script><script src="js/unpkg.com/markmap-view@0.2.6/dist/index.min.js" type="text/javascript"></script><style type="text/css">div.mkdocs-markmap {
+    width: 100%;
+    min-height: 1em;
+    border: 1px solid grey;
+}
+.mkdocs-markmap > svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+</style></head>
 <body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
-<script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#dokumentation-modul-169">
+<a class="md-skip" href="#dokumentation-modul-169-services-mit-containern-bereitstellen">
           Zum Inhalt
         </a>
 </div>
@@ -77,48 +87,18 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2">
-        1. Codierung
-        <span class="md-nav__icon md-icon"></span>
+          1. Einführung
+          <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="1. Codierung" class="md-nav" data-md-level="1">
+<nav aria-label="1. Einführung" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
-          1. Codierung
+          1. Einführung
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="1-10/">
-        Begriff Codierung
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="1-20/">
-        Arten von Codes
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="1-30/">
-        Fehlererkennung und -behebung
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="1-40/">
-        Binärcode
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="1-50/">
-        Zahlensysteme
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="1-60/">
-        Logische Operatoren
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="1-70/">
-        Bildcodierung
+        Überblick
       </a>
 </li>
 </ul>
@@ -127,23 +107,18 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3">
-        2. Komprimierung
-        <span class="md-nav__icon md-icon"></span>
+          2. Umgebung / Architektur
+          <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="2. Komprimierung" class="md-nav" data-md-level="1">
+<nav aria-label="2. Umgebung / Architektur" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
-          2. Komprimierung
+          2. Umgebung / Architektur
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="2-10/">
-        Funktionsweise Komprimierung
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="2-20/">
-        Normen und Standards
+        Grundprinzipien
       </a>
 </li>
 </ul>
@@ -152,38 +127,18 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4">
-        3. Verschlüsselung
-        <span class="md-nav__icon md-icon"></span>
+          3. Datenverbindungen
+          <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="3. Verschlüsselung" class="md-nav" data-md-level="1">
+<nav aria-label="3. Datenverbindungen" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
-          3. Verschlüsselung
+          3. Datenverbindungen
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
 <a class="md-nav__link" href="3-10/">
-        Begrifflichkeiten
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="3-20/">
-        Symmetrische Verschlüsselungsmethoden
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="3-30/">
-        Asymmetrische Verschlüsselungsmethoden
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="3-40/">
-        Zertifikate
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="3-50/">
-        Signaturen
+        Übersicht
       </a>
 </li>
 </ul>
@@ -192,18 +147,38 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5">
-        10. Beginn
-        <span class="md-nav__icon md-icon"></span>
+          4. Sicherheit
+          <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="10. Beginn" class="md-nav" data-md-level="1">
+<nav aria-label="4. Sicherheit" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_5">
 <span class="md-nav__icon md-icon"></span>
-          10. Beginn
+          4. Sicherheit
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="10-10/">
-        Übersicht Elemente
+<a class="md-nav__link" href="4-10/">
+        Betrieb
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6">
+          5. Dokumentation
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="5. Dokumentation" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          5. Dokumentation
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="1-10/">
+        Übersicht
       </a>
 </li>
 </ul>
@@ -216,50 +191,25 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="dokumentation-modul-169">Dokumentation Modul 169<a class="headerlink" href="#dokumentation-modul-169" title="Permanent link">¶</a></h1>
-<p>Willkommen zum Modul 169</p>
-<div class="mermaid">graph TD
-A[Client] --&gt; B[Load Balancer]
-B --&gt; C[Server01]
-B --&gt; D[Server02]
-</div>
+<h1 id="dokumentation-modul-169-services-mit-containern-bereitstellen">Dokumentation Modul 169 - Services mit Containern bereitstellen<a class="headerlink" href="#dokumentation-modul-169-services-mit-containern-bereitstellen" title="Permanent link">¶</a></h1>
+<p>Übersicht Modul 169 - Services mit Containern bereitstellen</p>
+<div class="language-markmap mkdocs-markmap" data-markdown="# Modul 169&amp;#10;&amp;#10;## Einführung&amp;#10;&amp;#10;### Administration&amp;#10;- Aufbau Modul &amp;#10;- Semesterplanung&amp;#10;- Prüfungsleistungen&amp;#10;&amp;#10;### Überblick&amp;#10;- Technologie&amp;#10;- UseCase&amp;#10;- Dokumentation gesamtes Modul&amp;#10;&amp;#10;## Umgebung / Architektur&amp;#10;&amp;#10;### Grundprinzipien&amp;#10;- Monolithische Architektur&amp;#10;- Microservice-Architektur&amp;#10;&amp;#10;### Container [Praktischer Teil Docker]&amp;#10;- Verpackung Services in Containern&amp;#10;- Container-Architektur&amp;#10;- Persistenz&amp;#10;- Vernetzung&amp;#10;- Bereitstellung und Überwachung Container&amp;#10;- Verwaltung der Container&amp;#10;&amp;#10;## Datenverbindungen bereitstellen&amp;#10;- Portfreigaben, Berechtigungen und Authentifizierung&amp;#10;- REST-Paradigma, Message Bus, API Gateway und Monitoring&amp;#10;&amp;#10;## Sicherheit&amp;#10;- Betrieb von Containern&amp;#10;    - Kubernetes&amp;#10;    - Docker Swarm&amp;#10;- Sicherheits- und Testkonzept&amp;#10;&amp;#10;## Dokumentation&amp;#10;&amp;#10;### Netzwerkplan&amp;#10;- logischer und physische Architektur&amp;#10;- Netzwerksymbole&amp;#10;&amp;#10;### Images / Dockerfiles&amp;#10;- Erstellung und Verwaltung mit Versionsverwaltungssystemen&amp;#10;- Lebenszyklus&amp;#10;- Testing&amp;#10;&amp;#10;## Praxis-Projekt&amp;#10;- Moderne Webapplikation (Front- / Backend, API-Server)&amp;#10;- Statistiktool Grafana&amp;#10;- ...&amp;#10;"><svg class="markmap" id="markmap-0"></svg></div>
 <mark class="critic block">
-<p>Formatting can also be applied to blocks by putting the opening and closing
-tags on separate lines and adding new lines between the tags and the content.</p>
+<p>Im Modul 169 wird ein eigenes Praxis-Projekt geplant, umgesetzt, getestet und dokumentiert.</p>
 </mark>
-<p>Text can be <del class="critic">deleted</del> and replacement text <ins class="critic">added</ins>. This can also be
-combined into <del class="critic">one</del><ins class="critic">a single</ins> operation. <mark class="critic">Highlighting</mark> is also
-possible <span class="critic comment">and comments can be added inline</span>.</p>
-<div class="admonition note">
-<p class="admonition-title">Phasellus posuere in sem ut cursus</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.</p>
-</div>
-<div class="highlight"><pre><span></span><code><span class="linenos" data-linenos="1 "></span><span class="k">def</span> <span class="nf">bubble_sort</span><span class="p">(</span><span class="n">items</span><span class="p">):</span>
-<span class="linenos" data-linenos="2 "></span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">items</span><span class="p">)):</span>
-<span class="linenos" data-linenos="3 "></span>        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">items</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">i</span><span class="p">):</span>
-<span class="linenos" data-linenos="4 "></span>            <span class="k">if</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]:</span>
-<span class="linenos" data-linenos="5 "></span>                <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">],</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span> <span class="o">+</span> <span class="mi">1</span><span class="p">],</span> <span class="n">items</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
-</code></pre></div>
-<figure>
-<p><img alt="Image title" src="https://dummyimage.com/600x400/" width="300">
-</img></p>
-<figcaption>Image caption</figcaption>
-</figure>
 </article>
 </div>
 </div>
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Weiter: Begriff Codierung" class="md-footer__link md-footer__link--next" href="1-10/" rel="next">
+<a aria-label="Weiter: Überblick" class="md-footer__link md-footer__link--next" href="1-10/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Weiter
               </span>
-              Begriff Codierung
+              Überblick
             </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -269,18 +219,19 @@ massa, nec semper lorem quam in massa.</p>
 </nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
-<div class="md-footer-copyright">
-<div class="md-footer-copyright__highlight">
-            Copyright © 2021 <a href="https://www.gbssg.ch"><span style="font-weight:1000">gbs</span>sg.ch</a> <span class="green">|</span> Informatik <span class="green">|</span> Modul 169
-          </div>
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
-          Material for MkDocs
-        </a>
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      Copyright © 2021 <a href="https://www.gbssg.ch"><span style="font-weight:1000">gbs</span>sg.ch</a> <span class="green">|</span> Informatik <span class="green">|</span> Modul 169
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
 </div>
-<div class="md-footer-social">
-<a class="md-footer-social__link" href="https://www.gbssg.ch" rel="noopener" target="_blank" title="gbssg.ch">
+<div class="md-social">
+<a class="md-social__link" href="https://www.gbssg.ch" rel="noopener" target="_blank" title="gbssg.ch">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5z"></path></svg>
 </a>
 </div>
@@ -291,10 +242,43 @@ massa, nec semper lorem quam in massa.</p>
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "toc.integrate", "navigation.instant"], "translations": {"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}, "search": "assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
-<script src="assets/javascripts/bundle.82b56eb2.min.js"></script>
+<script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "toc.integrate", "navigation.instant"], "translations": {"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Suche", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.term.missing": "Es fehlt", "select.version.title": "Version ausw\u00e4hlen"}, "search": "assets/javascripts/workers/search.bd0b6b67.min.js"}</script>
+<script src="assets/javascripts/bundle.9f3ca3d1.min.js"></script>
 <script src="javascript/config.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script><script>mermaid.initialize({});</script></body>
+<script type="text/javascript">(function initializeMarkmap() {
+    function update_markmaps() {
+        const markmap_transformer = new markmap.Transformer();
+        const markmaps = document.getElementsByClassName('mkdocs-markmap');
+        var el, content, svg, root, m;
+        for (var i = 0; i < markmaps.length; i++) {
+            el = markmaps[i];
+            content = el.getAttribute('data-markdown').replaceAll('&#10;', '\n');
+            svg = el.querySelector('svg');
+            root = markmap_transformer.transform(content).root;
+            m = markmap.Markmap.create(svg, null, root);
+
+            (function(obj, e, r) {
+                obj.rescale(1).then(function() {
+                    e.parentElement.style.height = (e.getBBox().height + 10) + "px";
+                    requestAnimationFrame(() => { obj.fit(); })
+                });
+            })(m, svg, root);
+        }
+    }
+
+    var MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+    var observer = new MutationObserver(function(mutations) {
+        update_markmaps();
+    });
+
+    var target = document.getElementById('mkdocs-decrypted-content');
+    if (undefined != target) {
+        observer.observe(target, { childList: true });
+    }
+
+    update_markmaps();
+})();
+</script></body>
 </html>
