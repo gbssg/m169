@@ -30,6 +30,7 @@ plugins:
   - mermaid2
   - markmap
   - search
+  - git-revision-date
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -78,3 +79,4 @@ extra:
     - icon: material/home
       link: https://www.gbssg.ch
       name: gbssg.ch
+
