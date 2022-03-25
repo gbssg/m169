@@ -18,6 +18,14 @@
       height: 100%;
   }
   
+  .admonition {
+      font-size: 1em !important;
+  }
+
+  table {
+    font-size: 1em !important;
+  }
+
   .abstract .admonition-title{
       background-color:#CCCC00 !important;
       color:white;
@@ -39,6 +47,7 @@
       color: #939C00;
       
   }
+
   
   .md-nav__title .md-nav__button.md-logo img{
       width: inherit;
@@ -49,8 +58,8 @@
       border:1px solid #939C00;
   }
   code{
-      border:1px solid #939C00;
-  }
+    border:1px solid #939C00;
+    }
   
   label.md-nav__link{
       font-weight: bold;
